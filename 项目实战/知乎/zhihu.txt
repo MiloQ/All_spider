@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="ecc752b24f5f40ce">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,search_hybrid_tabs:pin-3#album-7,nweb_search_suggest:default,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button">
+<title>发现 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://explore">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/explore">
+<meta id="znonce" name="znonce" content="a53ac0e5c7e645699e64d5f0e65ecf80">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+</head>
+
+<body class="zhi page-explore">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li current" id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+
+<div id="zh-recommend">
+<div id="zh-recommend-title" class="page-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+<span>编辑推荐</span>
+<a href="/explore/recommendations" class="zg-link-gray zg-right" data-za-c="explore" data-za-a="visit_explore_recommendations" data-za-l="editor_recommendations_more"><span>更多推荐 &raquo;</span></a>
+</div>
+<div id="zh-recommend-list">
+
+
+<div class="top-recommend-feed feed-item">
+<h2><a class="question_link" href="/question/22410848/answer/760617850" target="_blank" data-id="1145199" data-za-element-name="Title">
+如何培养儿童的创造力和发散思维能力？
+</a></h2>
+<div class="avatar">
+<a title="常爸黄任"
+data-hovercard="p$t$chang-qing-teng-ba-ba"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/chang-qing-teng-ba-ba">
+<img src="https://pic2.zhimg.com/v2-d16accbebde1de7a38136fbe065b06e0_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+
+<div class="feed-main">
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$chang-qing-teng-ba-ba"
+target="_blank" href="/people/chang-qing-teng-ba-ba"
+>常爸黄任</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">哈佛大学 教育学硕士</span>
+
+
+<span title="哈佛大学教育学硕士，传播科学育儿理念的亲子教育专家。" class="bio">
+哈佛大学教育学硕士，传播科学…
+</span>
+</span>
+</div>
+<div class="zm-item-rich-text" data-resourceid="1145199" data-action="/answer/content">
+<div class="zh-summary summary clearfix">
+<img src="https://pic3.zhimg.com/50/v2-1c3362022e580dd412dd54e308c2f278_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="693" data-rawheight="438" data-watermark="watermark" data-original-src="v2-1c3362022e580dd412dd54e308c2f278" data-watermark-src="v2-5d882d6397acc9077d4797f9677bf5f0" data-private-watermark-src="v2-2fcf094cb0467e553c1fa3fc6f0a6cfb" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic3.zhimg.com/50/v2-1c3362022e580dd412dd54e308c2f278_r.jpg">
+谢邀~很开心看到了这个问题！对于如何培养儿童的创造力和发散思维能力，我真是有好多经验想分享给大家！这一年，我带娃在美留学，在完成自己学业的同时，对于美国幼儿园以及学校如何引导孩子学习也是超级有兴趣。我看过几次小学学生的各种作品展，可以说是…
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >数学及自然科学</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/74735645" data-za-element-name="Title">正态分布的系数中为何会有π？</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/332563602/answer/733230755" target="_blank" data-id="36180104" data-za-element-name="Title">
+如何玩好《王者荣耀》？
+</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/336734006/answer/761128570" target="_blank" data-id="37106640" data-za-element-name="Title">
+2019 足协杯 1/4 决赛上海上港 2:0 淘汰广州恒大，如何评价本场比赛？
+</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/335275946/answer/751331066" target="_blank" data-id="36782741" data-za-element-name="Title">
+漫画分镜需要遵守轴线的规律吗？
+</a></h2>
+</div>
+
+
+</div>
+</div>
+<div class="explore-tab" id="js-explore-tab">
+<a class="zg-anchor-hidden" name="daily-hot"></a>
+<a class="zg-anchor-hidden" name="monthly-hot"></a>
+<ul class="tab-navs clearfix">
+<li class="tab-nav"><a class="anchor" href="#daily-hot" data-za-c="explore" data-za-a="visit_explore_daily_trendings" data-za-l="explore_daily_trendings">今日最热</a></li>
+<li class="tab-nav"><a class="anchor" href="#monthly-hot" data-za-c="explore" data-za-a="visit_explore_monthly_trendings" data-za-l="explore_monthly_trendings">本月最热</a></li>
+</ul>
+<div class="tab-panel">
+<div data-type="daily" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/336059175/answer/758066854" target="_blank" data-id="36956838" data-za-element-name="Title">
+如何评价新并入 C++20 的 constexpr allocation?
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="167898947"
+data-atoken="758066854"
+data-collapsed="0"
+data-created="1563788091"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/336059175/answer/758066854">
+<meta itemprop="answer-id" content="167898947">
+<meta itemprop="answer-url-token" content="758066854">
+<a class="zg-anchor-hidden" name="answer-167898947"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>56</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">56</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$Kurenai_Misuzu"
+target="_blank" href="/people/Kurenai_Misuzu"
+>暮无井见铃</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/Kurenai_Misuzu#hilightbadge" target="_blank">C++话题优秀回答者</a></span>
+
+
+
+<span title="往くを継ぎ、来たるを開く、導き手。" class="bio">
+往くを継ぎ、来たるを開く、導き…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="56">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">56</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="36956838" data-action="/answer/content" data-author-name="暮无井见铃" data-entry-url="/question/336059175/answer/758066854">
+
+<textarea hidden class="content">&lt;p&gt;随便写点想法，权当抛砖引玉。&lt;/p&gt;&lt;p&gt;目前进标准的提案版本是 P0784R7/P0980R1/P1004R2 这三个。由于动笔时（ 2019-07-22 ）最新的 papers 尚未公开，这里我就上一个修订版（ &lt;a href=&quot;//link.zhihu.com/?target=https%3A//wg21.link/P0784R6&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;P0784R6&lt;/a&gt;/&lt;a href=&quot;//link.zhihu.com/?target=https%3A//wg21.link/P0980R0&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;P0980R0&lt;/a&gt;/&lt;a href=&quot;//link.zhihu.com/?target=https%3A//wg21.link/P1004R1&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;P1004R1&lt;/a&gt; ）讨论，有些内容可能会在最终修订版和未来的标准草案中有变动。&lt;/p&gt;&lt;h2&gt;动机&lt;/h2&gt;&lt;p&gt;一些对于编译时反射的扩展提案希望能得到编译时的 std::vector （如 &lt;a href=&quot;//link.zhihu.com/?target=https%3A//wg21.link/P1240R0&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;P1240R0&lt;/a&gt; ）。&lt;/p&gt;&lt;p&gt;实际上现在的 C++ 编译器都是能在编译期动态分配内存的。特别是在实例化的模板比较多或比较复杂的时候，不难察觉到内存占用在提升。有时我们可能希望在代码中也利用上这种编译时的动态分配。&lt;/p&gt;&lt;p&gt;然而在语言标准这一层，我们会很遗憾地发现：之前标准都不允许代码在编译期（常量求值）动态分配内存。原因是动态分配需要涉及分配/释放函数，而这些函数背后必定会使用并修改“动态内存的记录”（与分配出来的动态内存一同俗称为“堆”）。而堆是一个全局的、可变的状态，常量求值中修改这种状态是不合理的。&lt;/p&gt;&lt;p&gt;（但常量求值以外的其他编译期手段能修改重载决议这种编译期的全局可变状态。这带来了有状态元编程（ stateful metaprogramming ），此处不继续讨论。）&lt;/p&gt;&lt;h2&gt;语核部分&lt;/h2&gt;&lt;p&gt;P0784 用了这种方法解决掉编译期的分配问题：&lt;/p&gt;&lt;p&gt;编译器在编译期动态分配内存时，仅就语言标准的语义而言，并不需要调用任何函数，也不需要与运行时的堆发生纠葛。那么在代码这层，只要&lt;b&gt;在编译期让一些动态分配的工具（如 new/delete 表达式）不调用 operator new/operator delete &lt;/b&gt;就基本解决问题了！&lt;/p&gt;&lt;p&gt;当然如果一些 new/delete 表达式调用用户定义的分配/解分配函数，则消去对这些函数的调用可能会导致用户不想要的结果，故而 P0784 未允许将它们放入常量表达式。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但是仅允许 new/delete 表达式的话，就仍未允许编译时进行“分配一段内存，但只在前面一些位置构造对象，而将后面预留”这种常用手法（此手法为 vector 所需）。所以 P0784 又&lt;b&gt;对 std::allocator 专门开洞&lt;/b&gt;，并且引入了 construct_at 。&lt;/p&gt;&lt;p&gt;construct_at 会使得在给定的位置创建新对象写起来比较好看，不过它和 std::allocator 存在耦合的部分，具体的原理大概是：&lt;/p&gt;&lt;p&gt;P0784 要求&lt;b&gt;编译器记住用户代码中编译期分配的每块动态内存具体是给何种类型的对象的，而在每块这种动态内存上只能直接创建对应类型的对象&lt;/b&gt;（否则相应的操作无法放到常量求值中）。&lt;/p&gt;&lt;p&gt;编译期的 std::allocator&amp;lt;T&amp;gt;::allocate 通过模板参数捎带类型信息。 construct_at/destroy_at 作为函数模板与被创建/销毁的对象类型相关，而现有的要求是它们在编译期只允许创建/销毁 std::allocator&amp;lt;T&amp;gt;::allocate 分配的内存上的对象。（ new/delete 表达式本身也是有类型信息的）&lt;/p&gt;&lt;p&gt;这个原理带来的结果还有：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;目前不分配的原位 new 尚未被允许放入常量表达式，但也不排除以后会有。&lt;/li&gt;&lt;li&gt;分配器的类型模板参数不再是设计上的累赘（算是&lt;a href=&quot;https://www.zhihu.com/question/274802525/answer/377882726&quot; class=&quot;internal&quot;&gt;狠狠地打了我的脸&lt;/a&gt;），它会在编译期起到作用。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;另外 P0784 还要求&lt;b&gt;常量表达式内部编译期分配的动态内存都需要被按照对应方式释放&lt;/b&gt;（ new 出来的用 delete 释放， std::allocator::allocate 出来的用 std::allocator::deallocate 释放）。从而返回一个非空的 vector 的 constexpr 函数调用本身可以不是常量表达式，只是可用于常量表达式（因为该 vector 不一定在表达式结尾被释放，例如它直接成为了用以初始化的对象）。&lt;/p&gt;&lt;p&gt;最后还有比较重要的一点，就是“字面类型（ literal type ）”的定义有所改变——原本它要求对象类型是可平凡析构（ trivially destructible ）的，现在已经不需要了（放宽到新的“有常量析构（ have constant destruction ）”要求）。这同样是为了常量求值中能创建 vector 之类的东西。&lt;/p&gt;&lt;h2&gt;库部分&lt;/h2&gt;&lt;p&gt;说完语核部分的改动后，库部分的改动就相对简单了。&lt;/p&gt;&lt;p&gt;即： &lt;b&gt;std::vector 和 std::basic_string 的全部成员函数，还有一些相关的非成员函数都加上了 constexpr&lt;/b&gt; ，这使得用户能在常量求值里使用这些容器了。（不排除最终进标准的提案和以后的标准草案会继续改动）&lt;/p&gt;&lt;p&gt;为何其他基于结点的容器（如 list 、 map 、 unordered_map）还没有加上 constexpr 呢？因为标准实际上要求了在创建新元素时，需要先分配并创建结点对象，再于结点内部原位 new 元素对象。而 P0784 还未能允许这种操作出现于常量求值。&lt;/p&gt;&lt;p&gt;当然，实际上的标准库实现改动可能并不只是“加上 constexpr ”这么简单。假如有的实现对于可平凡复制类型（ trivially copyable types ）使用了 memcpy/memmove ，则需要改用编译器的 intrinsic ，或者用 std::is_constant_evaluated 区别开编译期和运行期的分支。&lt;/p&gt;&lt;p&gt;另外，虽然 P0784 只对 std::allocator 开洞，但用户定义的分配器也有可能从中占便宜。方法同样是用 std::is_constant_evaluated 区别开编译期和运行期的分支，在编译期把分配/释放交给 std::allocator&amp;lt;T&amp;gt;::allocate/std::allocator&amp;lt;T&amp;gt;::deallocate 。&lt;/p&gt;&lt;h2&gt;总结&lt;/h2&gt;&lt;p&gt;总而言之，这次相关的改动可能不会令编译器的实现复杂度增加太多，虽然少量的增加是在所难免的。&lt;/p&gt;&lt;p&gt;但对应的目的可能会相对偏小众。考虑到 Reflection TS 不会进入 C++20 ，而 P1240 所提议的需要编译期 vector 的接口不一定赶得上 C++23 。现在引入 constexpr 容器的用处似乎不太大。也许它能简化一些元编程的操作，也许语核的改动能使得一些内存泄漏更容易被发现（通过把某些原本在运行期的环节挪到编译期）。&lt;/p&gt;&lt;p&gt;我个人是没有反对这些改动的想法，但也没有强烈支持的冲动。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+随便写点想法，权当抛砖引玉。目前进标准的提案版本是 P0784R7/P0980R1/P1004R2 这三个。由于动笔时（ 2019-07-22 ）最新的 papers 尚未公开，这里我就上一个修订版（ <a href="//link.zhihu.com/?target=https%3A//wg21.link/P0784R6" class=" wrap external" target="_blank" rel="nofollow noreferrer">P0784R6</a>/<a href="//link.zhihu.com/?target=https%3A//wg21.link/P0980R0" class=" wrap external" target="_blank" rel="nofollow noreferrer">P0980R0</a>/<a href="//link.zhihu.com/?target=https%3A//wg21.link/P1004R1" class=" wrap external" target="_blank" rel="nofollow noreferrer">P1004R1</a> ）讨论，有些内容可能会在最终修订版和未来的标准草案中有变动…
+
+<a href="/question/336059175/answer/758066854" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-07-22" target="_blank" href="/question/336059175/answer/758066854">编辑于 2019-07-22</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-36956838"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>11 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/33032291/answer/757988604" target="_blank" data-id="5418985" data-za-element-name="Title">
+被一个人用刀直插心脏，不拔刀会立即死亡吗？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="167884654"
+data-atoken="757988604"
+data-collapsed="0"
+data-created="1563784553"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/33032291/answer/757988604">
+<meta itemprop="answer-id" content="167884654">
+<meta itemprop="answer-url-token" content="757988604">
+<a class="zg-anchor-hidden" name="answer-167884654"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>3805</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">3805</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$MoriatyK"
+target="_blank" href="/people/MoriatyK"
+>Moriarty K</a></span><span title="Criminologist" class="bio">
+Criminologist
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="3805">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">3805</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="5418985" data-action="/answer/content" data-author-name="Moriarty K" data-entry-url="/question/33032291/answer/757988604">
+
+<textarea hidden class="content">&lt;p&gt;谢邀，这种情况下只能建议诸君&lt;b&gt;如果想死的话就学电视上那样立马拔出来。&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-9d2e59c01f47e22c03793fbbd3625f67_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;380&quot; data-size=&quot;normal&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-9d2e59c01f47e22c03793fbbd3625f67_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;由于插的是心脏，说实话拔不拔都挺危险的，刀插入导致心脏导致的心脏破裂属于&lt;b&gt;外伤性心脏损伤&lt;/b&gt;，基本上除了脑外伤就数它最容易死人了。&lt;/p&gt;&lt;p&gt;这种危险的伤情要分两种情况介绍，先说第一种：&lt;/p&gt;&lt;p&gt;&lt;b&gt;如果这把刀不够长，很短&lt;/b&gt;，就像这种：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-d3bdca65cb991b8137022feacb9fffa2_b.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;309&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-b3788bbc4c535660cc0a3df23d844082_b.jpg&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;你被这把刀从背后插了一刀，它虽然插到心脏了但不至于刺穿心脏，那就属&lt;b&gt;于非穿透性心脏损伤。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;被插了一刀的你，此时心脏的情况大概是这样的：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;心肌很可能是破裂了，几乎环绕心脏一周、为心脏供血的冠状动脉大概率破了，而心脏作为一个称职的泵血器官受了伤断了粮还在死撑着，受伤出的血被&lt;b&gt;刀刃本身及周围组织（如心包外脂肪、肺等）或血块&lt;/b&gt;堵住，积聚于心包腔内，形成&lt;b&gt;急性的心包腔积血，进一步引起心包填塞&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;于是，你会感觉到&lt;b&gt;胸前剧烈、持久的疼痛感，感觉到呼吸困难，渐渐神智不清······&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但是如果这把刀够长，像这种：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-d2f264237bc9f6c48157bb7393a0ea5c_b.jpg&quot; data-rawwidth=&quot;581&quot; data-rawheight=&quot;360&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-3d454c8d3a550e28fdbce66f831d6dc8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;581&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-d2f264237bc9f6c48157bb7393a0ea5c_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;算了，太长了也不好操作，这种吧：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-0716bf98b7d0472de13bf264a7f645b7_b.jpg&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;640&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-6fc7c2cea96e7b1ab35aa6e3602664c9_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-0716bf98b7d0472de13bf264a7f645b7_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;23333拿错了，是这个：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-f8002e2a8c10b2854dbd424307f4ca2b_b.jpg&quot; data-rawwidth=&quot;554&quot; data-rawheight=&quot;264&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-e7c28a405fc3c8464c12f88cc6533f94_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;554&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-f8002e2a8c10b2854dbd424307f4ca2b_r.jpg&quot;&gt;&lt;figcaption&gt;唐刀&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;总之，这个刀直接把心脏刺穿了，那就属于&lt;b&gt;穿透性心脏损伤&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;穿透性的心脏损伤，因为它有两个裂口，死亡率就更高了，但也要结合&lt;b&gt;损伤的部位、伤口的大小以及心包裂口的情况综合来看&lt;/b&gt;：&lt;/p&gt;&lt;p&gt;和非穿透性的心脏损伤一样&lt;b&gt;，刀刺穿心脏破裂，但裂口很容易被堵塞，急性的心包腔积血依旧存在，血被大量积累在心脏内部，形成填塞&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-f0189eea9a32e7c116834c1982ea0878_b.jpg&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;348&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-7ae8cf43583889064927a07015a1305f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-f0189eea9a32e7c116834c1982ea0878_r.jpg&quot;&gt;&lt;figcaption&gt;急性心包填塞，心脏内滞留大量高压液体&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;虽然说这样的心包填塞有利于减少心脏往外喷血，但必须考虑一个问题：&lt;/p&gt;&lt;p&gt;&lt;b&gt;——心包的弹力是有限的&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-1cdd5e5c0b82612f1d2e06e6b47f3645_b.jpg&quot; data-rawwidth=&quot;395&quot; data-rawheight=&quot;356&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-cc9aba4a776192f465d50e01672359f7_b.jpg&quot; class=&quot;content_image&quot; width=&quot;395&quot;&gt;&lt;figcaption&gt;心包是包裹心脏及出入心脏大血管根部的囊样结构，而心包腔是指壁层心包与心脏表面的脏层心包之间的空隙。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;急性的心包积血如果达到150ml以上，就会限制血液的回心过程，影响心脏正常跳动，最后就是急性循环衰竭导致的心跳骤停。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;说了那么多，该不该拔呢？&lt;/p&gt;&lt;p&gt;&lt;b&gt;不该。&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-9625a75915c3a01c5d0d4a694ca17842_b.jpg&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;368&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-01f8895e110322352be89b5ce02acb03_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-9625a75915c3a01c5d0d4a694ca17842_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;总的来说，刀插进去无论是穿了还是没穿，这都是一次极为硬核的伤害过程，它造成的结果都是心脏的破裂和损伤（破口），而但这时候&lt;b&gt;破口会被堵塞形成心包填塞&lt;/b&gt;，虽然&lt;b&gt;心包填塞不及时解除会导致被刺者循环衰竭而死，但整体上要比那些有出血但无心包填塞的人要容易活下来&lt;/b&gt;，而&lt;b&gt;从心包填塞到急性衰竭这段时间，就是紧急治疗的关键时期。&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-aff3b4a7ffe622e1d3f9efc00d14ace7_b.jpg&quot; data-rawwidth=&quot;544&quot; data-rawheight=&quot;509&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-f97575101240efa55b8b50692e84f713_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;544&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-aff3b4a7ffe622e1d3f9efc00d14ace7_r.jpg&quot;&gt;&lt;figcaption&gt;修补好的心包&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;如果你胆子大，以壮士断腕之豪情把刀拔出来了，那就有两种可能性：&lt;/p&gt;&lt;p&gt;&lt;b&gt;——破口不算大，周围组织（如心包外脂肪、肺等）或血块所堵塞，依旧形成了心包填塞&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;——破口过大，没有形成心包填塞，血液涌出心脏&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;第一种情况你可能还有救，但这种情况有点少见，毕竟那么顶的心脏太少了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;第二种情况，因为心房壁较薄，伤口要自然止血基本上是很难的，何况是冠状动脉这样的大动脉，&lt;b&gt;于是从心脏一股一股涌出的血会通畅无阻从你把刀的地方喷出来，另外一些则流入你的胸腔、纵隔或腹腔，你会很快的因为失血性休克迅速死亡。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这就是David Beiser医生说过的：&lt;/p&gt;&lt;blockquote&gt;“物体可能穿透了动脉或静脉，一旦把它拔出来，你可能会因失血过多而死。”&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;看出来了吗？&lt;b&gt;把插进去的刀拔了往往是一次更硬核的二次伤害，能不能活基本就看命了，毕竟心脏被刀插这是最危险的情况。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;大体情况就是这样：&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-5aa47489a78657b644a7f78bc9d7508f_b.jpg&quot; data-rawwidth=&quot;350&quot; data-rawheight=&quot;197&quot; data-size=&quot;normal&quot; class=&quot;content_image&quot; width=&quot;350&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;另外如果被捅伤的是身体其它地方，&lt;b&gt;一般情况下最稳的做法同样也是把刀留在原处等待救援，刀被插进去以后本身就起到了一部分堵塞伤口的作用&lt;/b&gt;，而有的部位血管、神经密布，不了解结构就擅自拔出来是很危险的。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-0ebbee003d397f13b55abac807f63cd8_b.jpg&quot; data-rawwidth=&quot;946&quot; data-rawheight=&quot;1026&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-a3932a4f85b41a6a4ce0e294664c0cb0_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;946&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-0ebbee003d397f13b55abac807f63cd8_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;正所谓“&lt;b&gt;穿心之箭不可拔&lt;/b&gt;”，就是这个道理。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/50/v2-9d2e59c01f47e22c03793fbbd3625f67_200x112.jpg" data-rawwidth="500" data-rawheight="380" data-size="normal" data-watermark="watermark" data-original-src="v2-9d2e59c01f47e22c03793fbbd3625f67" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/50/v2-9d2e59c01f47e22c03793fbbd3625f67_r.jpg">
+谢邀，这种情况下只能建议诸君<b>如果想死的话就学电视上那样立马拔出来。</b>由于插的是心脏，说实话拔不拔都挺危险的，刀插入导致心脏导致的心脏破裂属于<b>外伤性心脏损伤</b>，基本上除了脑外伤就数它最容易死人了。这种危险的伤情要分两种情况介绍，先说第一种：<b>如果…</b>
+
+<a href="/question/33032291/answer/757988604" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-07-22" target="_blank" href="/question/33032291/answer/757988604">编辑于 昨天 18:33</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-5418985"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>380 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic1.zhimg.com/v2-8f9e3505deafbebc0102870be6919646_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/336162579/answer/757825188" target="_blank" data-id="36979907" data-za-element-name="Title">
+如何看待谢震业在钻石联赛伦敦站 200 米决赛 19.88 秒打破亚洲记录夺冠?
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="167855003"
+data-atoken="757825188"
+data-collapsed="0"
+data-created="1563777173"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/336162579/answer/757825188">
+<meta itemprop="answer-id" content="167855003">
+<meta itemprop="answer-url-token" content="757825188">
+<a class="zg-anchor-hidden" name="answer-167855003"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1295</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1295</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$mu-mo-17-12"
+target="_blank" href="/people/mu-mo-17-12"
+>木末先生</a></span><span title="一枚犀利的麦子，发出思想的锋芒（公众号：木末先生）" class="bio">
+一枚犀利的麦子，发出思想的锋芒（公众号…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1295">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1295</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="36979907" data-action="/answer/content" data-author-name="木末先生" data-entry-url="/question/336162579/answer/757825188">
+
+<textarea hidden class="content">&lt;p&gt;大爆发！！实力表白飞人！&lt;/p&gt;&lt;p&gt;谢震业的田径生涯，就是在记录的破、立之间霸道来回！&lt;/p&gt;&lt;p&gt;在谢震业打破200米国内记录之前，&lt;b&gt;韩明明&lt;/b&gt;创造的&lt;b&gt;20秒54&lt;/b&gt;“统治”了&lt;b&gt;17年&lt;/b&gt;（1996&lt;br&gt;~2013）！&lt;/p&gt;&lt;p&gt;谢震业第一次与记录站在一起，是&lt;b&gt;2012年5月&lt;/b&gt;全国田径大奖赛，&lt;b&gt;追平&lt;/b&gt;韩明明记录。&lt;/p&gt;&lt;p&gt;不过率先打破韩明明记录的是&lt;b&gt;张培萌&lt;/b&gt;，2013年5月，在国际田联钻石联赛上海站200米比赛中跑出&lt;b&gt;20秒47&lt;/b&gt;的成绩。&lt;/p&gt;&lt;p&gt;一年之后，2014年10月，&lt;b&gt;谢震业跑出了20秒44，创造了属于自己的记录&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;此后的200米跑巅峰之处，只有谢震业自己。他创造记录，再打破自己创造的记录，创造新的记录。&lt;/p&gt;&lt;p&gt;这是4破记录的详情。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-ca702139e92202f31780ae4eb9259ba0_b.jpg&quot; data-rawwidth=&quot;620&quot; data-rawheight=&quot;158&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-67c797beaa6a28b2d3d3b715f63b3cc7_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;620&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-ca702139e92202f31780ae4eb9259ba0_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;然后，这个风一样的男人，&lt;b&gt;第五次打破国内记录（第四次打破自己创造的记录），第一次打破亚洲记录，创造了200米跑的黄种人速度，成为首个跑进20秒大关的黄种人、首个跑进19秒90的亚洲人。&lt;/b&gt;&lt;/p&gt;&lt;h2&gt;19.88！&lt;/h2&gt;&lt;p&gt;比自己的上一个成绩提升了0.28秒！&lt;/p&gt;&lt;p&gt;上个亚洲记录，是卡塔尔选手奥古诺德保持的19秒97。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-8e3f0c276e46ea8112927dfb4e7e2073_b.jpg&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;338&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-0323442be836f03634079cb8af0ea304_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-8e3f0c276e46ea8112927dfb4e7e2073_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;“成为第一个破20秒的黄种人，一直是鞭策自己的梦想之一。”&lt;/p&gt;&lt;p&gt;社会我谢哥，人狠话不多！梦想实现，飞人实至名归。&lt;/p&gt;&lt;p&gt;谢震业的这次突破，震撼度和历史意义不亚于2015年苏炳添跑出9秒99、成为首位突破10秒大关黄种人的那场比赛。&lt;/p&gt;&lt;p&gt;再感受一下激动人心的时刻：&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1136644515032182784&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;&quot; data-name=&quot;&quot; data-poster=&quot;https://pic3.zhimg.com/v2-c489d614071aa8c319143af1873d8d46.jpg&quot; data-lens-id=&quot;1136644515032182784&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic3.zhimg.com/v2-c489d614071aa8c319143af1873d8d46.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1136644515032182784&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;期待飞人的再次突破！&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;a data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; href=&quot;https://www.zhihu.com/question/336515012/answer/759537902&quot; data-image=&quot;https://pic4.zhimg.com/v2-3f46f069743b6b526e81e5890235b093_bh.jpg&quot; data-image-width=&quot;1529&quot; data-image-height=&quot;1080&quot; class=&quot;internal&quot;&gt;孙杨在 2019 世锦赛上卫冕 200 米自由泳冠军，如何评价这个冠军？&lt;/a&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-bd037d0a244a9d9f849952c3f04c7d67_200x112.jpg" data-rawwidth="620" data-rawheight="158" data-size="normal" data-caption="" data-watermark="watermark" data-original-src="v2-bd037d0a244a9d9f849952c3f04c7d67" data-watermark-src="v2-ca702139e92202f31780ae4eb9259ba0" data-private-watermark-src="v2-67c797beaa6a28b2d3d3b715f63b3cc7" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-bd037d0a244a9d9f849952c3f04c7d67_r.jpg">
+大爆发！！实力表白飞人！谢震业的田径生涯，就是在记录的破、立之间霸道来回！在谢震业打破200米国内记录之前，<b>韩明明</b>创造的<b>20秒54</b>“统治”了<b>17年</b>（1996 ~2013）！谢震业第一次与记录站在一起，是<b>2012年5月</b>全国田径大奖赛，<b>追平</b>韩明明记录。不过率先打破韩…
+
+<a href="/question/336162579/answer/757825188" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-07-22" target="_blank" href="/question/336162579/answer/757825188">编辑于 2019-07-23</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-36979907"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>116 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/334882893/answer/758008529" target="_blank" data-id="36695511" data-za-element-name="Title">
+为什么很多老字号都开始做国潮了？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="167888269"
+data-atoken="758008529"
+data-collapsed="0"
+data-created="1563785420"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/334882893/answer/758008529">
+<meta itemprop="answer-id" content="167888269">
+<meta itemprop="answer-url-token" content="758008529">
+<a class="zg-anchor-hidden" name="answer-167888269"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>59</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">59</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$dao-xiang-cun-66"
+target="_blank" href="/org/dao-xiang-cun-66"
+>稻香村</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的官方帐号"></span></span><span class="badge-summary">已认证的官方帐号</span>
+
+
+<span title="源自苏州 香飘世界" class="bio">
+源自苏州 香飘世界
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="59">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">59</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="36695511" data-action="/answer/content" data-author-name="稻香村" data-entry-url="/question/334882893/answer/758008529">
+
+<textarea hidden class="content">&lt;p&gt;“国潮”既是满足年轻消费者对时尚的追求、个性的张扬，又是对传统文化的一种自然回归和觉醒。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-36ba7c287cb474f60fb4cd99e7f1302e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;457&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-0359f4e3510d30ec211bad2b1e9c082f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-36ba7c287cb474f60fb4cd99e7f1302e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;随着时代的发展，年轻消费者已经成为消费主力军，大家的消费习惯，对于产品的要求，让一票的老字号企业面临着一个巨大的难题，要么继续安分守己，要么改变自己。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现在很多老字号开始做国潮，实际上就是在开始尝试着创新，尝试着改变自己。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;这些老字号没有拘泥于过往，而是让自身适应消费者的消费渠道和消费行为的变化，让“老字号”更加适应“新时代”。&lt;/p&gt;&lt;p&gt;&lt;b&gt;稻香村作为老字号，一直就以来都保持着这种不断创新的精神。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;改革开放前期，稻香村在招贴中就绘制有让人赏心悦目的图画，其中中秋月饼的招贴就是将美丽动人的嫦娥绘制在“一轮明月”中，这般具有创意的招贴在当时就引起了不小的轰动。&lt;/p&gt;&lt;p&gt;由此可见，这种绘制意象的国潮方式稻香村早在改革开放前就加以运用了。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-e879cb7eca6d1bf2a3857068756b8907_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;367&quot; data-rawheight=&quot;666&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-92689732f08641bb046c902abceba611_b.jpg&quot; class=&quot;content_image&quot; width=&quot;367&quot;&gt;&lt;figcaption&gt;改革开放前中秋月饼招贴&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-e953cd6c3321678a77b0443bd733d811_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;323&quot; data-rawheight=&quot;504&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-8b71c61d3c65ac435d9735f0737a9f72_b.jpg&quot; class=&quot;content_image&quot; width=&quot;323&quot;&gt;&lt;figcaption&gt;改革开放前酥糖招贴&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;改革开放之后，为了适应智能化发展，稻香村做出了前所未有的大改变，我们能够最直观地看到的创新改变的就是稻香村的产品。&lt;/p&gt;&lt;p&gt;2018年8月开展的【天猫国潮行动】晚宴就带我们小小的领略了一番国货魅力。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;稻香村 奶油椰蓉月饼 + 望月&lt;/b&gt;&lt;/p&gt;&lt;p&gt;菜品借鉴了稻香村“月球灯”的灵感，取名为望月，将满月请到餐盘中。&lt;/p&gt;&lt;p&gt;白巧克力月球，搭配慕斯和鱼子酱，甜甜咸咸，是非常新奇的一种味道。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-d8215356c45fb3a507d12ba082ce21eb_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;1138&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-28a8dcdd5f9fa4d873c66d232e14b695_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-d8215356c45fb3a507d12ba082ce21eb_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村 奶油椰蓉月饼 + 望月&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;在2019年新年期间，稻香村更是打造了宫廷好礼国潮年货，联合朕的心意-故宫食品打造【稻香村年礼】礼盒，将国潮中式糕点带出宫门！&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-5a0b3cc6f7fd8c91ea64812641cb651a_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;1920&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-d7cd00e2c9cbbde1fc224649834c2082_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-5a0b3cc6f7fd8c91ea64812641cb651a_r.jpg&quot;&gt;&lt;figcaption&gt;【稻香村年礼】礼盒&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;2016年G20峰会召开期间，稻香村与中国国家博物馆首次跨界合作，将《大观园图》中“凸碧堂与凹晶馆中秋赏月”的场景，运用到稻香村月饼礼盒包装上。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-205f75d85ab57efe8c25094b0661f65e_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;565&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-9f05d7cc23c131a83256ee9bd901f4a1_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-205f75d85ab57efe8c25094b0661f65e_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆国博——明月佳人&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;为了更好地走进年轻人的内心，稻香村与当时的热播电影《功夫熊猫》和热播电视剧《琅琊榜之风起长林》合作推出了各种休闲糕点。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-5dec43da5a4164c75c3a64b60de14c75_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;496&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-20de03ccacd9cc6fb769854c46457ee8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-5dec43da5a4164c75c3a64b60de14c75_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆功夫熊猫——定制礼盒&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-a004ada94656b7890757dd01b614cb61_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;585&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-19143b86bc344180744c5d0dcb913439_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-a004ada94656b7890757dd01b614cb61_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆琅琊榜——定制桃酥礼盒&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;此外，稻香村还把3D打印技术应用到月饼礼盒中，推出了一款“月球灯”的中秋特别款！让你就算中秋天上没有明月，也可以“手捧一轮圆月”。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-6285c0c947bdbe5f2ffb767ce247ed67_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2200&quot; data-rawheight=&quot;1752&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-980bc53d873fb67aad36f58994cea9d0_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2200&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-6285c0c947bdbe5f2ffb767ce247ed67_r.jpg&quot;&gt;&lt;figcaption&gt;花好月圆&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;除了在产品的包装上结合了当时的热播电影、电视剧以及新型的技术，稻香村还积极与年轻品牌联手，跨界联名与很多女孩喜爱的hello kitty进行合作，推出了深受女孩子们喜爱的hello kitty月饼礼盒。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-9581d10ff87a63a1fdb172c4343b8336_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;608&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-79a21843fc54af73d0ca60565ac08fcc_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-9581d10ff87a63a1fdb172c4343b8336_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆Hello Kitty——KT圆月&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;与此同时，稻香村和火遍全网的游戏《剑网3》合作推出定制款月饼，月饼的造型则是选用游戏场景的人物角色造型。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-6edcb310d4a4955873ab67be787e7fad_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;451&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-d8b3f2a93b71815089725b5f73ee19e9_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-6edcb310d4a4955873ab67be787e7fad_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆剑网三——梦回稻香&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;看到稻香村合作的【梦回稻香】中秋定制礼盒，你有没有回想起曾经和朋友们一起打游戏的愉快时光呢~&lt;/p&gt;&lt;p&gt;除了与这些新潮的品牌合作，稻香村还和一些同为老字号的品牌进行了合作。&lt;/p&gt;&lt;p&gt;这些老字号皆是各自领域的佼佼者，借助各自品牌优势强强联合，共同打造强国货。&lt;/p&gt;&lt;p&gt;2017年，稻香村与同为中华老字号的东阿阿胶合作，做出了一款专门为女性打造的阿胶月饼！&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-c1b6edfb99db016f5f54d085071c35ce_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;799&quot; data-rawheight=&quot;533&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-c4ac7bd25f365f3ba6fc6c6d91f2ca02_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;799&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-c1b6edfb99db016f5f54d085071c35ce_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆东阿阿胶——阿胶月饼&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;2018年，稻香村同茶叶老字号中茶集团共同打造新中式茶点礼盒，可以高端大气也可以活泼可爱。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-2f27764b5723d7e1586dded9bde45161_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1385&quot; data-rawheight=&quot;919&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-3f7810ea48ba553b273d29e049ecaeac_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1385&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-2f27764b5723d7e1586dded9bde45161_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆中茶——茗香尚合&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-00bf362fb0333c9523ea3a6aecc894fb_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1384&quot; data-rawheight=&quot;917&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-81c5643446ed511eb0dd3f8d1395c0d2_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1384&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-00bf362fb0333c9523ea3a6aecc894fb_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆中茶——玩月&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;稻香村和蒙牛也合作出品了恬静淡雅的糖醇月饼礼盒，为团圆之夜带来了别样的礼物。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-3ce5141272f50c4f1f52bd7ae8928f51_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1514&quot; data-rawheight=&quot;1080&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-59e7f7dbf6080bbfdb4048d215207665_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1514&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-3ce5141272f50c4f1f52bd7ae8928f51_r.jpg&quot;&gt;&lt;figcaption&gt;稻香村＆蒙牛——糖醇月饼礼盒&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;没有过去，将来无从谈起；不忘初心，才能继续前行。&lt;/p&gt;&lt;p&gt;&lt;b&gt;越是老字号，就越不能“服老”。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;稻香村作为历史悠久的中式糕点企业，之所以能持续经营两个半世纪，就是因为体内流淌着创新精神！&lt;/p&gt;&lt;p&gt;&lt;b&gt;真正的老字号，勇于变革，敢于去掉自身存在的不合时宜的因素，适应社会的发展与变化。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;近几年，稻香村与年轻人的距离越来越近，以传统的苏式糕点，自带的中国风气质，以及散发着的复古韵味，吸引着新时代的消费者们，成为了糕点届的“国潮”品牌。&lt;/p&gt;&lt;p&gt;小鲜肉小仙女们的包里，常备的不再是西式的甜点，而是咱中式的点心。&lt;/p&gt;&lt;p&gt;肚子饿了，来上一口点心，感叹一句：嗯，真香！&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/50/v2-36ba7c287cb474f60fb4cd99e7f1302e_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="1080" data-rawheight="457" data-watermark="original" data-original-src="v2-36ba7c287cb474f60fb4cd99e7f1302e" data-watermark-src="v2-59a39dc781be8053324dec8159afaf92" data-private-watermark-src="v2-0359f4e3510d30ec211bad2b1e9c082f" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/50/v2-36ba7c287cb474f60fb4cd99e7f1302e_r.jpg">
+“国潮”既是满足年轻消费者对时尚的追求、个性的张扬，又是对传统文化的一种自然回归和觉醒。随着时代的发展，年轻消费者已经成为消费主力军，大家的消费习惯，对于产品的要求，让一票的老字号企业面临着一个巨大的难题，要么继续安分守己，要么改变自己。<b>…</b>
+
+<a href="/question/334882893/answer/758008529" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-07-22" target="_blank" href="/question/334882893/answer/758008529">编辑于 2019-07-22</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-36695511"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>13 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/336229989/answer/757893248" target="_blank" data-id="36994810" data-za-element-name="Title">
+中国科学家几乎完全消灭广州两处蚊子，未来蚊子有望彻底消失吗？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="167867342"
+data-atoken="757893248"
+data-collapsed="0"
+data-created="1563780246"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/336229989/answer/757893248">
+<meta itemprop="answer-id" content="167867342">
+<meta itemprop="answer-url-token" content="757893248">
+<a class="zg-anchor-hidden" name="answer-167867342"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>259</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">259</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$naturezi-ran-ke-yan"
+target="_blank" href="/org/naturezi-ran-ke-yan"
+>Nature自然科研</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的官方帐号"></span></span><span class="badge-summary">已认证的官方帐号</span>
+
+
+<span title="思想常新者以自然为其可靠之依据" class="bio">
+思想常新者以自然为其可靠之依据
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="259">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">259</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="36994810" data-action="/answer/content" data-author-name="Nature自然科研" data-entry-url="/question/336229989/answer/757893248">
+
+<textarea hidden class="content">&lt;p&gt;谢邀。&lt;/p&gt;&lt;p&gt;根据《自然》7月18日发表的一篇论文，中国开展的一项田间试验几乎根除了一种会传播疾病的入侵种蚊子。这种方法通过将雌蚊绝育与雄蚊感染相结合，达到了控制蚊媒种群的目的，不仅绿色环保，而且低成本、高效能。论文链接↓&lt;/p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.nature.com/articles/s41586-019-1407-9&quot; data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; data-image=&quot;https://pic1.zhimg.com/v2-bcae1d2a350717b82ac9050b25150ca0_180x120.jpg&quot; data-image-width=&quot;685&quot; data-image-height=&quot;514&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Incompatible and sterile insect techniques combined eliminate mosquitoes&lt;/a&gt;&lt;p&gt;白纹伊蚊&lt;i&gt;（Aedes   albopictus）&lt;/i&gt;是一种全球性的攻击型蚊子，可传播登革病毒、基孔肯雅病毒、寨卡病毒等。压制白纹伊蚊种群数量的传统策略一直收效甚微。一种控制方法是先利用辐射让雄蚊绝育，再进行野外释放。由于该方法会降低释放雄蚊相对野生雄蚊的生殖竞争力，因此效果并不理想。另一种方法则让雄蚊感染一种名为沃尔巴克氏体（&lt;i&gt;Wolbachia&lt;/i&gt;）的共生菌，这些雄蚊与未携带相同沃尔巴克氏体类型的雌蚊交配后会产生不相容现象。但这种方法也存在风险，一旦感染了同型沃尔巴克氏体的雌蚊被意外释放，就会取代本地种群，影响将来基于沃尔巴克氏体的种群压制策略。&lt;/p&gt;&lt;p&gt;中国中山大学一密歇根州立大学热带病虫媒控制联合研究中心的奚志勇和同事，让蚊子感染了一种结合了三种沃尔巴克氏体菌株的新型共生菌（几乎不存在于野生种群中），再对蚊子进行辐射，让可能被意外释放的携带同型沃尔巴克氏体的雌蚊绝育，同时保证辐射水平不会影响雄蚊的生殖竞争力。团队在中国广州开展了一项田间试验，一共释放了数百万只三重感染、受过辐射的蚊子。在两年的时间里，野生蚊子种群几乎全被清除，每年野生蚊种的数量都减少了约83%-94%，且在长达6周内都侦测不到任何蚊子。种群遗传学分析显示，仅剩的蚊子可能是从研究地区之外的地方迁移而来的。&lt;/p&gt;&lt;p&gt;美国乔治城大学的蚊子生态学家Peter Armbruster说，这是目前最为成功的田间试验之一，如果与其他蚊虫控制手段（如杀虫剂）联用，这种双管齐下的方法将是极为强大的蚊媒疾病防治工具。戳右边链接阅读相关文章→&lt;a href=&quot;//link.zhihu.com/?target=https%3A//www.nature.com/articles/d41586-019-02160-z&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;World’s most invasive mosquito nearly eradicated from two islands in China&lt;/a&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-3ad0087ddbed49c06df41802d8e54442_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;533&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-22706516fe53ed3e4df85669873dc321_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-3ad0087ddbed49c06df41802d8e54442_r.jpg&quot;&gt;&lt;figcaption&gt;图为携带三种沃尔巴克氏菌菌株的雄性白纹伊蚊，它们即将被释放到试验区域。图片来源：Yajun Wang &lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-3ad0087ddbed49c06df41802d8e54442_200x112.jpg" data-caption="图为携带三种沃尔巴克氏菌菌株的雄性白纹伊蚊，它们即将被释放到试验区域。图片来源：Yajun Wang " data-size="normal" data-rawwidth="800" data-rawheight="533" data-watermark="original" data-original-src="v2-3ad0087ddbed49c06df41802d8e54442" data-watermark-src="v2-5f8c3deea1f64d0b383490bac2e6afa2" data-private-watermark-src="v2-22706516fe53ed3e4df85669873dc321" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-3ad0087ddbed49c06df41802d8e54442_r.jpg">
+谢邀。根据《自然》7月18日发表的一篇论文，中国开展的一项田间试验几乎根除了一种会传播疾病的入侵种蚊子。这种方法通过将雌蚊绝育与雄蚊感染相结合，达到了控制蚊媒种群的目的，不仅绿色环保，而且低成本、高效能。论文链接↓<a href="//link.zhihu.com/?target=https%3A//www.nature.com/articles/s41586-019-1407-9" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-bcae1d2a350717b82ac9050b25150ca0_180x120.jpg" data-image-width="685" data-image-height="514" class=" wrap external" target="_blank" rel="nofollow noreferrer">Incompatible and sterile in…</a>
+
+<a href="/question/336229989/answer/757893248" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/336229989/answer/757893248">发布于 2019-07-22</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-36994810"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>65 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-panel">
+<div data-type="monthly" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/330126735/answer/727005865" target="_blank" data-id="35638721" data-za-element-name="Title">
+家境并不富裕，高考完想买两万六的电脑，值得吗？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="162251480"
+data-atoken="727005865"
+data-collapsed="0"
+data-created="1561435707"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/330126735/answer/727005865">
+<meta itemprop="answer-id" content="162251480">
+<meta itemprop="answer-url-token" content="727005865">
+<a class="zg-anchor-hidden" name="answer-162251480"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1382</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1382</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wu-fa-bei-ya"
+target="_blank" href="/people/wu-fa-bei-ya"
+>无法被压</a></span><span title="想当程序员的垃圾佬。" class="bio">
+想当程序员的垃圾佬。
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1382">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1382</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="35638721" data-action="/answer/content" data-author-name="无法被压" data-entry-url="/question/330126735/answer/727005865">
+
+<textarea hidden class="content">&lt;p&gt;题主既不热爱PC，因为你买外星人。&lt;/p&gt;&lt;p&gt;也不热爱游戏，因为你想用笔记本玩游戏，甚至不配外设。&lt;/p&gt;&lt;p&gt;还没钱，因为要去打工赚钱买电脑。&lt;/p&gt;&lt;p&gt;题主只是爱装范，觉着外星人非常牛，拿出来倍有面。&lt;/p&gt;&lt;p&gt;装范还装了个很蠢的范，2w6可以买很多厉害的东西，光买个电脑可太亏了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;确实没想到这么多伙伴赞同我的回答....&lt;/p&gt;&lt;p&gt;其实这一代外星人还行的，但是他的定位不是普通人，不是需要借贷的人，题主就大有打肿脸充胖子的嫌疑，这是万万不可取的。&lt;/p&gt;&lt;p&gt;关于用笔记本玩游戏是不是不热爱游戏，其实这应该没有因果联系，真正享受游戏内容的人可能真的不在乎屏幕多大，帧率多高，但是，题主绝对不是这一类人，题主所玩游戏大有跟风嫌疑。&lt;/p&gt;&lt;p&gt;题目描述的要打游戏，对于题主来说是一个伪需求，是题主给自己捏造的，告诉自己要购买外星人的理由之一，但是很明显，如果你有玩游戏的需求，你应该配一台台式机，小钢炮。&lt;/p&gt;&lt;p&gt;更重要的外设，题主是完全没有提及，竭尽全力购买一台外星人，却没了钱来购买鼠标，这岂不是很可笑，一台外星人配一个淘宝爆款鼠标？&lt;/p&gt;&lt;p&gt;外星人是给那种，买一台51m与普通工薪阶级买一台y7000压力一样的人准备的，绝不是给，父母资助，姐姐接济，网上贷款，自己打工的题主准备的。&lt;/p&gt;&lt;p&gt;希望题主理性消费。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+题主既不热爱PC，因为你买外星人。也不热爱游戏，因为你想用笔记本玩游戏，甚至不配外设。还没钱，因为要去打工赚钱买电脑。题主只是爱装范，觉着外星人非常牛，拿出来倍有面。装范还装了个很蠢的范，2w6可以买很多厉害的东西，光买个电脑可太亏了。 确实没…
+
+<a href="/question/330126735/answer/727005865" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-06-25" target="_blank" href="/question/330126735/answer/727005865">编辑于 2019-07-13</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-35638721"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>155 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/327648566/answer/726790509" target="_blank" data-id="35087320" data-za-element-name="Title">
+给孩子选择太多，就不要怪孩子注意力不好，为什么这么说？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="162212151"
+data-atoken="726790509"
+data-collapsed="0"
+data-created="1561425173"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/327648566/answer/726790509">
+<meta itemprop="answer-id" content="162212151">
+<meta itemprop="answer-url-token" content="726790509">
+<a class="zg-anchor-hidden" name="answer-162212151"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>302</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">302</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yezhuang"
+target="_blank" href="/people/yezhuang"
+>叶壮</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/yezhuang#hilightbadge" target="_blank">心理学、发展心理学话题优秀回答者</a></span>
+
+
+
+<span title="心理学培训师，《21招，让孩子独立》新书热卖" class="bio">
+心理学培训师，…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="302">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">302</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="35087320" data-action="/answer/content" data-author-name="叶壮" data-entry-url="/question/327648566/answer/726790509">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;别听那些营销号贩卖焦虑，甚至一知半解地跟你解释孩子鞋不能超过三双，衣服不能超过五套的扯淡结论。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;给孩子的选择多寡，跟孩子的注意力和关注力，之间的关联实际上并不简单。并不是简单的一句“选择多了就不珍惜”就能带过代表的。&lt;/p&gt;&lt;p&gt;之前有友人来家里做客，看见我儿子在玩他摆了一地的玩具：火车、轨道、积木、动物模型……&lt;/p&gt;&lt;p&gt;没地儿下脚的朋友语重心长的跟我说：“你心理学白学了，我最近看了一篇文章，有个心理学家说，孩子玩具越多，对孩子成长越不好，影响孩子的专注力，人家说了，孩子的玩具不应该超过五样，衣服不能超过五套，鞋不能超过三双！”&lt;/p&gt;&lt;p&gt;我掰着指头算了算：照这么说，合着我家孩子只能有两套夏装，两套春秋装，一套冬装的配额。如果今天下雨，他连个买雨衣的资格都没有。当然了，他最好别尿裤子，要不然恐怕连换洗都成问题。至于玩具更是如此，就算以前的旧玩具统统扔掉或送人，如我儿子般的小火车迷，就算所有玩具配额都用来买小火车，恐怕都不够。&lt;/p&gt;&lt;p&gt;&lt;b&gt;最不靠谱的建议，就是这样：听着有几分道理，甚至有些照着做的冲动，但仔细一想，几乎没什么意义。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;说“更多选择让人表现更差”的那个心理学家我知道，巴里·施瓦茨（Barry Schwartz），在美国斯沃斯莫尔学院当社会心理学教授，也算是TED讲台的常客，他那本《选择的悖论》的译者，还是我一个相当不错的朋友。&lt;/p&gt;&lt;p&gt;但巴里的研究成果，并不能直接延伸为我们穷养孩子限制成长资源的理由，孩子专注力的发展重点，并不在玩具的数量本身。&lt;/p&gt;&lt;p&gt;专注力发展的重点，在于对玩具数量、质量和类型的兼顾与平衡。&lt;/p&gt;&lt;p&gt;&lt;b&gt;给一个小孩买五十个小火车是欠妥的，但并不意味着给这个孩子只买五个玩具全是小火车就是最优解。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;真正能培养孩子专注力、情绪管控甚至智能发展的环境，是一个“内容优质且丰富”的环境，在这个环境中，孩子们接触到的事物具有数量、类型和质量的良好平衡。&lt;/p&gt;&lt;p&gt;马尼托巴大学的两名研究人员拿大白鼠做了一个相关研究。他们培养出了两个大白鼠的“部落”，其中一个部落极其聪明，另一个部落智力水平则很差。随后，他们选择了三个在资源数量与资源种类方面程度不同的环境，来饲养两个部落的新生大白鼠。两个部落的大白鼠后代被分散到三种环境里。在丰富环境的过程中，愚蠢的和聪明的，最后都变得一样聪明了；在贫乏的环境中，聪明的和愚蠢的，最后都变得一样愚蠢了；只有在普通的环境当中，聪明大白鼠和愚蠢大白鼠之间才显现出来了智能的差异。&lt;/p&gt;&lt;p&gt;孩子画画的时候，你给他五十根彩笔，他画的未必比用五根彩笔画的认真专注。但如果你给他五根彩笔，五根毛笔，五根铅笔，五根蜡笔，他就有可能会有更多的奇思妙想与专注表现了。&lt;/p&gt;&lt;p&gt;可有的家长认为太多的选择的风险在另一件事上：它会让孩子变的更加挑剔。&lt;/p&gt;&lt;p&gt;孩子们面对更多的选择时，肯定会变的“挑剔”起来。这其实很好理解，你看当年的皇上，因为人家资源多，所以选妃选嫔也是高标准严要求挑剔的很，肯定还是要找那个方方面面都合适的。&lt;/p&gt;&lt;p&gt;可是“挑剔”并不意味着“不专注”。家长们之所以认为“挑剔”可能是个问题，是因为孩子挑剔的状态会让家长不爽：“我都给你买了，你怎么还挑来挑去的！”“让你往东你偏要往西，你这孩子怎么这样！”“这个跟那个有啥不一样的，为啥非要那个！”“家里有一个了，你怎么还要！”&lt;/p&gt;&lt;p&gt;这种不爽在大多数情况下怨不得孩子，其实是家长的同理心不足或者事先跟孩子沟通不够导致的——你是一个特怕臭的人，但今天朋友来你家做客，带了一颗榴莲当伴手礼，你不开心，但你会觉得自己挑剔吗？&lt;/p&gt;&lt;p&gt;作为成人，我们可能会给自己开解：“算了算了，怎么着也是一片心意。”然后笑脸相迎。但孩子并没有这种技能，在他的年龄段，发展出了对于事物的好恶以及更深刻的自我认识，但他暂时还没有学会那些跟人打圆场的套路和技巧。&lt;/p&gt;&lt;p&gt;孩子挑剔导致家长的体验糟糕，但这并不意味着孩子糟糕。“啥都行”，“都可以”，“随便”，“我不管”，“爱咋咋地”——如果我们的孩子面对我们一天到晚都说这些话，这才是真正值得警惕的事情。&lt;/p&gt;&lt;p&gt;我们不应该给孩子动不动就扣上“挑剔”的帽子，而是应该更多的事先交流、征询意见、交换看法，提供给他几个可行的备选项——最重要的，尊重一个已经成为独立个体的他。&lt;/p&gt;&lt;p&gt;&lt;b&gt;为人父母没有绝对的KPI，“五套”、“五个”和“三双”肯定不是关爱的最大值。给孩子最好的关爱来自于真切的尊重以及科学的教养，当爹妈既是要尊重科学的技术活，也是要带上情怀的艺术活。所以，请别囫囵吞下“穷养”或者“富养”的种种指标，怎么给孩子提供一个平衡且优质的成长环境才是最重要的。&lt;/b&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>别听那些营销号贩卖焦虑，甚至一知半解地跟你解释孩子鞋不能超过三双，衣服不能超过五套的扯淡结论。</b>给孩子的选择多寡，跟孩子的注意力和关注力，之间的关联实际上并不简单。并不是简单的一句“选择多了就不珍惜”就能带过代表的。之前有友人来家里做客，看…
+
+<a href="/question/327648566/answer/726790509" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-06-25" target="_blank" href="/question/327648566/answer/726790509">编辑于 2019-06-25</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-35087320"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>16 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/30222022/answer/726945239" target="_blank" data-id="4271195" data-za-element-name="Title">
+怎么消除眼睛上的脂肪粒？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="162240418"
+data-atoken="726945239"
+data-collapsed="0"
+data-created="1561432694"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/30222022/answer/726945239">
+<meta itemprop="answer-id" content="162240418">
+<meta itemprop="answer-url-token" content="726945239">
+<a class="zg-anchor-hidden" name="answer-162240418"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>12K</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">12K</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$chunihf"
+target="_blank" href="/people/chunihf"
+>Miss初小果</a></span><span title="我不懂你，但懂你的脸。 [公众号]：初小果" class="bio">
+我不懂你，但懂你的脸。 [公众号]：初小果
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="12616">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">12616</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="4271195" data-action="/answer/content" data-author-name="Miss初小果" data-entry-url="/question/30222022/answer/726945239">
+
+<textarea hidden class="content">&lt;p&gt;其实很多人对脸上的小颗粒，傻傻分不清楚，所以有的人干脆叫它脂肪粒。&lt;/p&gt;&lt;p&gt;如果单纯从字眼来看，脂肪粒就是脂肪形成的小颗粒，但实际上大家口中的脂肪粒，其实混杂了好几种东西，有可能是下面几种情况。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;一、毛周角化&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;毛周角化&lt;/b&gt;就是指毛孔周围的角质增多，慢慢就堆积形成了凸起的小颗粒，例如下图。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-bd98eaf6980fce432f2920657b1c4131_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;995&quot; data-rawheight=&quot;1091&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;995&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-bd98eaf6980fce432f2920657b1c4131_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;1、产生原因&lt;/b&gt;&lt;/p&gt;&lt;p&gt;正常情况下，毛孔周围的角质是正常代谢的，既合理产生，又及时脱落，不会堆积成小山丘。那为什么会出现毛周角化呢？&lt;/p&gt;&lt;p&gt;有两方面原因，首先是&lt;b&gt;产生增多&lt;/b&gt;，其次是&lt;b&gt;脱落不及时&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;b&gt;①产生增多的因素&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;维生素A缺乏&lt;/b&gt;&lt;/p&gt;&lt;p&gt;理论上缺乏维生素A皮肤会比较粗糙，角化增加。但实际上，如果真的是缺乏维生素A，那可能出现问题的，就不仅仅是面部的皮肤了，而如果仅仅是面部毛周角化，那这种缺乏也仅是轻度缺乏，可能面部皮肤比较敏感，所以轻度缺乏，皮肤就有反应。&lt;/p&gt;&lt;p&gt;&lt;b&gt;油脂成分或比例失衡&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;饱和脂肪酸容易使皮肤角化，而不饱和脂肪酸则有助于抑制角化，特别是一些必需的不饱和脂肪酸，例如&lt;b&gt;亚油酸&lt;/b&gt;、&lt;b&gt;亚麻酸&lt;/b&gt;等。所以如果油脂中含有比较多的饱和脂肪酸，比较少的不饱和脂肪酸，就容易角化增加。&lt;/p&gt;&lt;p&gt;还有就是不饱和脂肪酸的比例不平衡，例如&lt;b&gt;亚油酸低，油酸高&lt;/b&gt;，这种情况，皮肤也容易角化。&lt;/p&gt;&lt;p&gt;所以这就是为什么皮肤油的人，有的人容易毛周角化，角质过多，长痘，而有的人却不会。&lt;/p&gt;&lt;p&gt;&lt;b&gt;护肤品成分刺激&lt;/b&gt;&lt;/p&gt;&lt;p&gt;某些护肤品成分，例如有致痘性的成分，之所以有致痘性，其实也跟刺激角质的增生，从而堵塞毛孔有关。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;②脱落不及时的因素&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;清洁或卸妆不够&lt;/b&gt;&lt;/p&gt;&lt;p&gt;正常情况下，角质是有更新代谢的周期的，这个周期大概28天左右，也就是说一个角质细胞从形成到脱落，大约是28天左右。但当清洁或卸妆不及时的时候，角质无法及时脱落，就会堵在毛孔，慢慢就堆积形成小颗粒。&lt;/p&gt;&lt;p&gt;但这并不是说，过度清洁就是好的，过度清洁或卸妆反而会导致屏障受损，出现更加严重的问题。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2、处理方法&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;①预防毛周角化&lt;/b&gt;&lt;/p&gt;&lt;p&gt;因为油脂不平衡会促使毛周角化，所以我们可以外用一些油来调节。例如&lt;b&gt;玫瑰果油&lt;/b&gt;，玫瑰果油含有比较丰富的必需不饱和脂肪酸：&lt;b&gt;亚麻酸&lt;/b&gt;、&lt;b&gt;亚油酸&lt;/b&gt;、&lt;b&gt;油酸&lt;/b&gt;，而且比例符合正常皮肤的要求，所以有助于预防毛周角化。&lt;/p&gt;&lt;p&gt;产品例如&lt;b&gt;Trilogy&lt;/b&gt;、&lt;b&gt;Kosmea&lt;/b&gt;玫瑰果油。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-db4cb74a60360abc51670d7dda4df697_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;520&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-db4cb74a60360abc51670d7dda4df697_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;可以采用&lt;b&gt;爽肤水+玫瑰果油+爽肤水&lt;/b&gt;，或&lt;b&gt;直接加到乳霜&lt;/b&gt;的方式。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-67c0e2eee4e2064c10509827f9c672f4_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;900&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-67c0e2eee4e2064c10509827f9c672f4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;①爽肤水（先用&lt;b&gt;理肤泉&lt;/b&gt;或&lt;b&gt;雅漾&lt;/b&gt;等清爽的爽肤水，因为皮肤在&lt;b&gt;水分充足&lt;/b&gt;的情况下，会有利于吸收，滋润些）。&lt;/p&gt;&lt;p&gt;②玫瑰果油（先从1-2滴开始，尽量不要直接上脸，局部&lt;b&gt;浓度偏高&lt;/b&gt;，有可能刺激爆痘，先掌心搓开，然后再轻轻按摩）。&lt;/p&gt;&lt;p&gt;③如果油，可以再加&lt;b&gt;爽肤水&lt;/b&gt;按摩。如果干，可以加涂&lt;b&gt;乳霜&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;因为角质无法及时脱落也会使毛周角质增多，但又不能过度清洁，因为这样会破坏屏障，那怎么办呢？可以使用&lt;b&gt;泥膜&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;泥膜主要是一些火山泥、高岭土、深海泥，这些成分可以吸附皮肤表面的油脂以及一些废旧角质，避免角质堆积，但又不像表活剂或皂基那样会去除角质细胞之间的结构脂质。&lt;/p&gt;&lt;p&gt;产品例如&lt;b&gt;科颜氏&lt;/b&gt;亚马逊白泥净致面膜、&lt;b&gt;swisse&lt;/b&gt;麦卢卡蜂蜜面膜、&lt;b&gt;ORIGINS&lt;/b&gt;活性炭毛孔净透面膜、&lt;b&gt;德国RUGARD&lt;/b&gt;死海绿泥黏土矿物清洁面膜。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-d516fa6adcab000f88c4b946e8e97b59_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;882&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-d516fa6adcab000f88c4b946e8e97b59_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;②去除毛周角化&lt;/b&gt;&lt;/p&gt;&lt;p&gt;对于已经产生的毛周角化，怎么办呢？挤掉它吗？挤是挤不掉的。&lt;/p&gt;&lt;p&gt;对于这种情况，如果你是耐受城墙皮，可以选择去角质的产品，例如&lt;b&gt;果酸&lt;/b&gt;、&lt;b&gt;水杨酸&lt;/b&gt;，它们能够松动角质，从而撬走毛孔内堆积的老废角质，达到疏通毛孔的效果。&lt;/p&gt;&lt;p&gt;&lt;b&gt;果酸&lt;/b&gt;的产品，例如&lt;b&gt;达尔肤&lt;/b&gt;杏仁酸温和换肤精华液（有三种浓度：6%、8%、18%）、高浓度的还有&lt;b&gt;芯丝翠活性乳液&lt;/b&gt;（含15%果酸）。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-d4940ca7d3087868e405e9c94d82ba82_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;900&quot; data-rawheight=&quot;431&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;900&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-d4940ca7d3087868e405e9c94d82ba82_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;水杨酸&lt;/b&gt;的产品，例如&lt;b&gt;宝拉珍选&lt;/b&gt;、&lt;b&gt;博乐达&lt;/b&gt;、&lt;b&gt;The Ordinary&lt;/b&gt;、&lt;b&gt;上水和肌&lt;/b&gt;等。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-f10cc0fcc610803e7e8a46ad9df16997_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;900&quot; data-rawheight=&quot;431&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;900&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-f10cc0fcc610803e7e8a46ad9df16997_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;其中博乐达属于超分子水杨酸，一方面实际浓度有保证，另一方面具有缓释能力，慢慢地将成分释放出来，从而延长了水杨酸的作用时间。刺激性也比较小。&lt;/p&gt;&lt;p&gt;除了果酸、水杨酸，还有一些小伙伴可能会用&lt;b&gt;维A酸，&lt;/b&gt;维A酸跟水杨酸、果酸的去角质不同，它是通过促进角质更新，调节毛周的异常角化过程从而去除堵在毛孔的角质，不像水杨酸、果酸用多了角质会薄。&lt;/p&gt;&lt;p&gt;产品例如&lt;b&gt;维A酸乳膏&lt;/b&gt;，但维A酸乳膏属于第一代维A酸，刺激性会比较大，其实可以选择&lt;b&gt;阿达帕林&lt;/b&gt;，它属于第三代维A酸，刺激性小一些，相比维A酸乳膏，会温和一些。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-4817e7dae574327040e580701138c81a_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;600&quot; data-rawheight=&quot;300&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;600&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-4817e7dae574327040e580701138c81a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;二、闭口&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;闭口&lt;/b&gt;主要出现在皮脂腺比较丰富的部位，也就是比较油的地方。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-6f76ce3eeda5416fcdb0567717604c3d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2144&quot; data-rawheight=&quot;2340&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2144&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-6f76ce3eeda5416fcdb0567717604c3d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1、产生原因&lt;/b&gt;&lt;/p&gt;&lt;p&gt;闭口的形成也跟毛周角化有关，因为毛孔是皮脂腺的出口，当毛孔周围的角质过度，堵塞毛孔时，里面的油脂就无法排出，于是积压在毛孔里面，久而久之就形成了&lt;b&gt;脂肪栓&lt;/b&gt;。如果毛孔开口的角质还在，那么这个时候我们就称它为&lt;b&gt;闭口&lt;/b&gt;，当角质脱落，那么脂肪栓表面接触粉尘，而且氧化，就变成了&lt;b&gt;黑头&lt;/b&gt;。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-962d1c9f8f41e02c4edb8f351d15bf8a_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;1380&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-962d1c9f8f41e02c4edb8f351d15bf8a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;所以闭口跟毛周角化是有关系的，闭口的形成是在毛周角化的基础上，加上油脂分泌多。所以说闭口一般发生在油性皮肤比较多，另外油性皮肤也容易毛周角质，原因就是上面提到的&lt;b&gt;油脂失衡&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;闭口是可以挤出小芝麻粒大小、淡黄色的脂肪栓的，而单纯的毛周角化一般是挤不出东西的。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-4ddeb2c01af027af1b1a9a56e6ba7fd8_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;753&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-4ddeb2c01af027af1b1a9a56e6ba7fd8_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;挤出的脂肪粒，有点像虫卵，所以有的小伙伴会以为，这是不是我脸上的&lt;b&gt;螨虫卵&lt;/b&gt;呢，而且这些脂肪粒表面还有一层包衣，所以网上有些人也鼓吹这是螨虫卵，叫你买他们家的产品杀虫。&lt;/p&gt;&lt;p&gt;但你想想螨虫才多大，有这么大的虫卵吗，换言之，鸡蛋比鸡还大，你觉得可能吗？&lt;/p&gt;&lt;p&gt;其实这并不是什么虫卵，所谓的表面那一层包衣，其实就是&lt;b&gt;角质&lt;/b&gt;，因为毛孔周围的角质会更新脱落，那么脱落以后，就会依附在脂肪栓表面，因为长时间挤压在毛孔中，所以当你将它挤出来时，就像包衣，但实际上，它就是单纯的脂肪栓。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2、处理方法&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;①预防闭口&lt;/b&gt;&lt;/p&gt;&lt;p&gt;因为闭口是在毛周角化的基础上形成的，所以要预防闭口，也要疏通好毛孔，前面对付毛周角化的方法，在这里也可以用。&lt;/p&gt;&lt;p&gt;另外，闭口存在油脂分泌旺盛的一面，所以减少油脂分泌有助于减轻闭口，而皮脂腺的分泌活动主要受&lt;b&gt;内分泌&lt;/b&gt;的影响比较大。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-3b2d38ebddd22000975da98d666de93a_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;1504&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-3b2d38ebddd22000975da98d666de93a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;比如说&lt;b&gt;雄激素&lt;/b&gt;水平的变化，&lt;b&gt;经常熬夜&lt;/b&gt;，&lt;b&gt;精神压力大&lt;/b&gt;就会导致雄激素水平升高，雄激素升高，就会刺激皮脂腺分泌更多油。&lt;/p&gt;&lt;p&gt;又比如说&lt;b&gt;胰岛素样生长因子（IGF-1）&lt;/b&gt;分泌增加，&lt;b&gt;吃太多甜食&lt;/b&gt;，摄入太多糖分，会导致这个东西增加，然后这个因子也会刺激皮脂腺分泌更多油。&lt;/p&gt;&lt;p&gt;所以平时早睡，对预防闭口还是有帮助的。饮食上少吃甜食，多吃水果蔬菜，可以喝喝豆浆，豆浆中富含大豆黄酮，大豆黄酮具有&lt;b&gt;类似雌激素的作用&lt;/b&gt;，虽然作用很弱，但也有助于对抗雄激素，从而使油脂分泌减少。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-0c6f10905cc5726e780fdc6a91a5ec59_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;770&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-0c6f10905cc5726e780fdc6a91a5ec59_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;那有没有什么产品可以减少油脂分泌呢？&lt;/p&gt;&lt;p&gt;其实是有的，例如&lt;b&gt;烟酰胺&lt;/b&gt;。可能很多人认识烟酰胺，是因为它能够美白，但除了美白，烟酰胺也具有减少油脂分泌的作用。&lt;/p&gt;&lt;p&gt;例如&lt;b&gt;The Ordinary&lt;/b&gt;烟酰胺精华。这款产品的烟酰胺浓度10%，而且还添加了1%锌加强控油效果。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-c84e61fb4b2f843262015034f07fd66b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;1170&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-c84e61fb4b2f843262015034f07fd66b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;不过The Ordinary的烟酰胺浓度比较高，所以刺激会大一些，如果不耐受或者以前没用过烟酰胺的，建议先从浓度低一些的开始，例如&lt;b&gt;Olay小白瓶&lt;/b&gt;ProX亮洁皙颜祛斑精华液，含有5%烟酰胺。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-e4c558bfab096333a00f4347ab586af2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;600&quot; data-rawheight=&quot;300&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;600&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-e4c558bfab096333a00f4347ab586af2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;②去除闭口&lt;/b&gt;&lt;/p&gt;&lt;p&gt;如果已经形成的闭口，能不能挤呢，其实最好不要挤，如果要挤，最好先做好消毒，因为这种形成的闭口里面储存着大量油脂，里面也有一些细菌，这个时候细菌还在可控阶段，一旦你挤压，你手上以及皮肤表面的细菌就会跑进去，打破这种平衡，细菌就大量繁殖，诱发炎症，所以你挤压后它有可能化脓变成痘痘，所以即使要挤，也要消毒一下。&lt;/p&gt;&lt;p&gt;如果不挤，可以通过前面提到的毛周角化的方法，去一去角质，你也可以加用&lt;b&gt;霍霍巴油&lt;/b&gt;，促进油脂的溶解，从而疏通毛孔。&lt;/p&gt;&lt;p&gt;霍霍巴油因为跟皮脂比较相似，所以渗透性比较好，而且能够通过以油溶油的方式，促进脂肪栓的溶解，例如&lt;b&gt;jojoba company&lt;/b&gt;霍霍巴油或者&lt;b&gt;基础颜究&lt;/b&gt;。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-9810b7ee67fb197f05ae4dfdd4bea94e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;600&quot; data-rawheight=&quot;300&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;600&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-9810b7ee67fb197f05ae4dfdd4bea94e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;霍霍巴油的使用方法：&lt;/p&gt;&lt;p&gt;1、将霍霍巴油涂在脸上4-5分钟，然后洗面奶洗掉即可，每天一次。&lt;/p&gt;&lt;p&gt;2、将霍霍巴油涂在脸上，轻轻按摩2-3分钟，然后洗面奶洗掉，每天一次。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;三、粟丘疹&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;粟丘疹&lt;/b&gt;一般出现在眼周的皮肤，其他部位的皮肤很少见。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-bf45747ef200e21e3da34e30a47b1a0e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;2340&quot; data-rawheight=&quot;1132&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2340&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-bf45747ef200e21e3da34e30a47b1a0e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1、产生原因&lt;/b&gt;&lt;/p&gt;&lt;p&gt;粟丘疹的颜色是白色或淡黄色的小颗粒，可能很多人会以为它是脂肪，但它里面并不是脂肪。因为眼周皮肤的皮脂腺不丰富，所以一般不会出现像闭口这样的脂肪栓。&lt;/p&gt;&lt;p&gt;那么这些小颗粒是什么呢？&lt;/p&gt;&lt;p&gt;其实它是由角蛋白形成的&lt;b&gt;角蛋白团&lt;/b&gt;，也就是说大量角蛋白挤在一起形成的硬硬的小颗粒，因为它不是毛孔里的脂肪栓，所以你怎么挤都很难挤出东西的。&lt;/p&gt;&lt;p&gt;那么为什么会出现这些小颗粒呢？&lt;/p&gt;&lt;p&gt;很多人将原因归咎于眼霜，因为有的人的确是用了某些眼霜才出现的，但问题是没有用眼霜的人也会出现啊，所以说罪魁祸首不一定就是眼霜。&lt;/p&gt;&lt;p&gt;因为这些小颗粒的本质是角蛋白，正常情况下，角质细胞里也有角蛋白，那为什么不会形成角蛋白团呢？说明数量合理，没有过度，所以不会形成角蛋白团，但是当角蛋白的产生增多时，就会形成这些小颗粒。&lt;/p&gt;&lt;p&gt;一般情况下，角蛋白不会无端端就大量产生，之所以大量产生，说明这个部位需要角蛋白，例如局部的&lt;b&gt;小炎症&lt;/b&gt;或&lt;b&gt;小伤口&lt;/b&gt;，这个时候，皮肤启动自我修复机制，所以就会加大角蛋白的产生，但不知道为什么，某些位置的生产车间有点失控，产生了大量的角蛋白，于是这些多余的角蛋白就挤在一起，形成小颗粒。&lt;/p&gt;&lt;p&gt;而平时的&lt;b&gt;紫外线&lt;/b&gt;，或者&lt;b&gt;搓眼睛&lt;/b&gt;，或者使用某些&lt;b&gt;眼霜&lt;/b&gt;，都有可能导致局部出现一些小伤口，小炎症。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2、处理方法&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;①预防粟丘疹&lt;/b&gt;&lt;/p&gt;&lt;p&gt;因为粟丘疹主要是局部出现小炎症导致的，所以需要避免导致炎症的一些因素，例如&lt;b&gt;注意防晒&lt;/b&gt;，尽量&lt;b&gt;不要搓眼睛&lt;/b&gt;，尤其是平时就容易长粟丘疹的人。&lt;/p&gt;&lt;p&gt;虽然说粟丘疹的形成跟眼霜油不油关系不大，但有的人的确时因为用了眼霜才出现的，这说明这些眼霜当中的某些成分跟你八字不合，所以刺激局部出现炎症，所以如果用了某眼霜出现粟丘疹，那最好换一个眼霜。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;②去除粟丘疹&lt;/b&gt;&lt;/p&gt;&lt;p&gt;经常看到网上有人说用某某产品去除脂肪粒，例如小红书上就有一大堆&lt;b&gt;金霉素眼膏党&lt;/b&gt;，但底下的评论大部分是用了没效果的。&lt;/p&gt;&lt;p&gt;其实没效果是预料之中的，因为金霉素眼膏只是&lt;b&gt;抗生素&lt;/b&gt;，用来杀细菌的，它既没有角质剥脱作用，也不能软坚散结。那些说有用的人，要么根本就不是粟丘疹，要么就是恰巧它已经快脱落，结果瞎猫遇到死耗子。所以说金霉素眼膏对粟丘疹是没用的，如果说金霉素眼膏对粟丘疹都有用，那初小果现场表演下方高难度动作。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-062add4b6b720262d3c031c16d37f887_b.jpg&quot; data-size=&quot;small&quot; data-rawwidth=&quot;960&quot; data-rawheight=&quot;914&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;960&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-062add4b6b720262d3c031c16d37f887_r.jpg&quot;&gt;&lt;figcaption&gt;来源：LOFTER&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;那么有没有什么产品，可以去除粟丘疹呢？&lt;/p&gt;&lt;p&gt;理论上，&lt;b&gt;去角质&lt;/b&gt;的产品，例如上面提到的水杨酸，维A酸有一定作用，但也需要坚持，而且眼周皮肤娇嫩，还是要小心。&lt;/p&gt;&lt;p&gt;那么硬挤有没有用呢？其实也没用，因为它跟闭口不同，它是比较顽固的钉子户，基本上很难挤出来。&lt;/p&gt;&lt;p&gt;对付这种脂肪粒，最直接的方法就是用&lt;b&gt;针挑&lt;/b&gt;，将它挑刺出来。因为眼周皮薄肉嫩，要做好消毒，避免感染，最好去医院，不要自己在家里拿绣花针瞎折腾。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;四、汗管瘤&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;汗管瘤&lt;/b&gt;主要出现在眼周，尤其是下眼睑，颜色接近肉色。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-66128f7ae6acb3a766610c3cea25b089_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;small&quot; data-rawwidth=&quot;1863&quot; data-rawheight=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1863&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-66128f7ae6acb3a766610c3cea25b089_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1、产生原因&lt;/b&gt;&lt;/p&gt;&lt;p&gt;汗管瘤主要是增生的汗管细胞，它的形成跟护肤品没有关系，根本原因还是&lt;b&gt;遗传&lt;/b&gt;，例如你爹妈有汗管瘤，那么你可能就容易长。另外它还跟内分泌有关，例如有汗管瘤的人，在妊娠期会加重。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2、处理方法&lt;/b&gt;&lt;/p&gt;&lt;p&gt;因为跟遗传的关系比较大，所以谈不上怎么预防，它爱长你也防不了的。&lt;/p&gt;&lt;p&gt;另外，不要相信外涂护肤品或药膏可以去除汗管瘤，最直接的方法就是&lt;b&gt;激光&lt;/b&gt;，很多小伙伴可能期盼激光去除之后，就跟它老死不相见，但实际上山水有相逢，还是有可能复发的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;所以如果你脸上有脂肪粒，最好先分清它是毛周角化、闭口、粟丘疹还是汗管瘤，因为不是所有的“脂肪粒”都是脂肪粒。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;b&gt;关注初小果公众号，了解更多护肤资讯。&lt;/b&gt;&lt;/blockquote&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-bd98eaf6980fce432f2920657b1c4131_200x112.jpg" data-caption="" data-size="small" data-rawwidth="995" data-rawheight="1091" data-watermark="" data-original-src="" data-watermark-src="" data-private-watermark-src="" data-tags="porn" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-bd98eaf6980fce432f2920657b1c4131_r.jpg">
+其实很多人对脸上的小颗粒，傻傻分不清楚，所以有的人干脆叫它脂肪粒。如果单纯从字眼来看，脂肪粒就是脂肪形成的小颗粒，但实际上大家口中的脂肪粒，其实混杂了好几种东西，有可能是下面几种情况。 <b>一、毛周角化</b><b>毛周角化</b>就是指毛孔周围的角质增多，慢慢就…
+
+<a href="/question/30222022/answer/726945239" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-06-25" target="_blank" href="/question/30222022/answer/726945239">编辑于 2019-06-25</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-4271195"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>260 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic2.zhimg.com/v2-cc0c10cf3b95ff313600ccba8a61179a_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/322224218/answer/726845281" target="_blank" data-id="33881506" data-za-element-name="Title">
+为什么会有精罗（精神罗马人）这类人的出现？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="162222071"
+data-atoken="726845281"
+data-collapsed="0"
+data-created="1561428099"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/322224218/answer/726845281">
+<meta itemprop="answer-id" content="162222071">
+<meta itemprop="answer-url-token" content="726845281">
+<a class="zg-anchor-hidden" name="answer-162222071"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>412</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">412</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$mooncatcher"
+target="_blank" href="/people/mooncatcher"
+>mooncatcher</a></span><span title="Classicist in training." class="bio">
+Classicist in training.
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="412">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">412</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="33881506" data-action="/answer/content" data-author-name="mooncatcher" data-entry-url="/question/322224218/answer/726845281">
+
+<textarea hidden class="content">&lt;p&gt;「精神罗马人」真的存在吗？&lt;/p&gt;&lt;p&gt;我见过不少不懂拉丁语（或希腊语）、没怎么接触过拉丁（或希腊）典籍、对罗马法系统除了几个耳熟能详的名词外一概不知、对罗马建筑的认知停留于大斗兽场和万神殿、对罗马肖像艺术的理解止步于「莎孚像」与庞贝马赛克、主要兴趣点高度集中于政治与军事史并以西庇阿-恺撒-屋大维-尼禄-图拉真-查士丁尼-君十一为人物轴心的业余爱好者（p.s. &lt;img src=&quot;//www.zhihu.com/equation?tex=P%28%E6%98%AF%E5%A4%A7%E6%88%98%E7%95%A5%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%29%5Cgeq0.8&quot; alt=&quot;P(是大战略游戏玩家)\geq0.8&quot; eeimg=&quot;1&quot;&gt; ）。我自己的朋友里也有符合以上描述的。以此为「精罗指标」，他们算「精神罗马人」吗？&lt;/p&gt;&lt;p&gt;且问，当年的普通罗马人大多大字不识一个，哪来的条件与资源去翻阅典籍、学习艺术、通读古今历史？身份认同又岂是可以简单地从现实世界寻找material cause的？更不要说罗马世界多文化、多语言、多民族、多宗教的属性，本身即在否定任何围绕某一语言、民族或价值观而展开的线性叙事。&lt;/p&gt;&lt;p&gt;所以我前面提到的那些「精罗指标」压根是废话，完全没说到点子上。&lt;/p&gt;&lt;p&gt;那么真正的罗马性（Romanitas/Ρωμιοσύνη）到底是什么？从最表层去解读，它似乎就是一连串大词的具现化，比如四枢德（理智/prudentia，勇敢/fortitudo，正义/iustitia，节制/temperantia），比如古典共和主义的观念，比如公民/士兵/农民这个从辛辛那图斯到瓦罗一脉相承的理想罗马人格。但这些常常自相矛盾的理想化大词，本身就带着浓浓的建构味道——它们真的可信吗？&lt;/p&gt;&lt;p&gt;我读关于罗马性的文献越多，就越觉得不管这方面的学术研究多么地车载斗量，Romanitas恐怕都会一直是个只能被反向定义的概念——我们只能用排除法去验证它&lt;b&gt;不是什么&lt;/b&gt;；而究其原因，大概便因为罗马性是因人而异的、是普世的：&lt;/p&gt;&lt;blockquote&gt;Romanitas (Tertullian, &lt;i&gt;De Pallio&lt;/i&gt;, 4, I) had different meanings for different Romans. An African with a profound regard for the city of Rome might express disdain for a Balkan emperor whose Roman ideals were a Dacian militarism (Lactantius, &lt;i&gt;Mort.&lt;/i&gt; 27, 7-8). A retired Greek staff officer who admired the heroes of the Roman Republic might be disappointed when he came to Rome and met the sybaritic senators of his own time (Ammianus, XIV, 6).&lt;/blockquote&gt;&lt;p&gt;从这个角度来讲，或许每个对古罗马有所了解的人都有属于他们的「精罗时刻」。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+「精神罗马人」真的存在吗？我见过不少不懂拉丁语（或希腊语）、没怎么接触过拉丁（或希腊）典籍、对罗马法系统除了几个耳熟能详的名词外一概不知、对罗马建筑的认知停留于大斗兽场和万神殿、对罗马肖像艺术的理解止步于「莎孚像」与庞贝马赛克、主要兴趣点…
+
+<a href="/question/322224218/answer/726845281" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/322224218/answer/726845281">发布于 2019-06-25</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-33881506"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>32 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/295124584/answer/726953021" target="_blank" data-id="27860184" data-za-element-name="Title">
+有哪些话是你第一次见到就被惊艳到且说中内心？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="162241833"
+data-atoken="726953021"
+data-collapsed="0"
+data-created="1561433052"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/295124584/answer/726953021">
+<meta itemprop="answer-id" content="162241833">
+<meta itemprop="answer-url-token" content="726953021">
+<a class="zg-anchor-hidden" name="answer-162241833"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1120</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1120</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wan-dou-gu-niang-45"
+target="_blank" href="/people/wan-dou-gu-niang-45"
+>甜酷小璨</a></span><span title="公众号：甜酷小璨，这姑娘的分享都是特真诚的那种。" class="bio">
+公众号：甜酷小璨，这姑娘的分享都是特真…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1120">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1120</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27860184" data-action="/answer/content" data-author-name="甜酷小璨" data-entry-url="/question/295124584/answer/726953021">
+
+<textarea hidden class="content">&lt;p&gt;1.&lt;/p&gt;&lt;p&gt;夏天有梅子味的晚霞，三两颗啤酒味的星，以及一勺浓郁的风，冲开少女草莓味的心事。&lt;/p&gt;&lt;p&gt;2.&lt;/p&gt;&lt;p&gt;我在贩卖日落，你像神明一样慷慨的将光洒向我，从此人间被点亮。&lt;/p&gt;&lt;p&gt;3.&lt;/p&gt;&lt;p&gt;我好像一直都在放弃你又好像一直都在等你&lt;/p&gt;&lt;p&gt;4.&lt;/p&gt;&lt;p&gt;世间万物皆苦，你明目张胆的偏爱就是救赎（这句真的好喜欢好喜欢）&lt;/p&gt;&lt;p&gt;5.&lt;/p&gt;&lt;p&gt;世间万物的来去都有它的时间啊&lt;/p&gt;&lt;p&gt;6.&lt;/p&gt;&lt;p&gt;你不知道今晚的光影有多美&lt;/p&gt;&lt;p&gt;我想到的第一件事就是拍照发给你&lt;/p&gt;&lt;p&gt;可突然想起来&lt;/p&gt;&lt;p&gt;你可能在忙&lt;/p&gt;&lt;p&gt;又觉得&lt;/p&gt;&lt;p&gt;这光影也不怎么好看&lt;/p&gt;&lt;p&gt;7.&lt;/p&gt;&lt;p&gt;我会在每个有意义的时辰&lt;/p&gt;&lt;p&gt;远隔山海与你共存&lt;/p&gt;&lt;p&gt;8.&lt;/p&gt;&lt;p&gt;你是我在梦里才敢拥抱的人啊&lt;/p&gt;&lt;p&gt;9.&lt;/p&gt;&lt;p&gt;我拥向宇宙吹来的风，与夏夜相逢&lt;/p&gt;&lt;p&gt;10.&lt;/p&gt;&lt;p&gt;心态变老的一个明显信号，就是“触动感”的消失。从对微小事物的极度关切，如草木，溪流，雨雪。到开始执于人际，自身，道理，整个感官日渐免疫。这种“老却”往往不是时间带来的，而是人对自己的割裂。很喜欢vice的标语，叫：“世界在下沉，我们在狂欢”。狂欢不足谈，但一定要保住“触动感”。​​​&lt;/p&gt;&lt;p&gt;11.&lt;/p&gt;&lt;p&gt;我永远热爱做梦，热爱超脱于荆棘生活之上的一切光辉灿烂。&lt;/p&gt;&lt;p&gt;12.&lt;/p&gt;&lt;p&gt;除了温柔，同样能吸引我的特质，还有「稳重」。这种稳重，无关是阅历，心态，还是知识素养带来的，都令我痴迷。那种骨子里的从容，不把情绪挂在脸上，处事时的沉毅，是我永远都企及的状态。生活总是那么淘气，冗长又难捱，烦躁散尽还复来。而稳重的人，必须要独领一份可爱。​​&lt;/p&gt;&lt;p&gt;13.&lt;/p&gt;&lt;p&gt;​暧昧是这个宇宙最有趣的游戏身处其中时你是松弛的柔软的粉色的你的细胞在舒服的分裂然后蔓延&lt;/p&gt;&lt;p&gt;14.&lt;/p&gt;&lt;p&gt;想起张爱玲的一句话，不相爱的爱情永久不会变坏，所以我们只暧昧，只调情，却不要相爱&lt;/p&gt;&lt;p&gt;15.&lt;/p&gt;&lt;p&gt;夜晚太性感，差点冲昏头脑说想你&lt;/p&gt;&lt;p&gt;16.&lt;/p&gt;&lt;p&gt;你是不灭星空，日复一日的噩梦&lt;/p&gt;&lt;p&gt;17.&lt;/p&gt;&lt;p&gt;明天再继续喜欢你吧，现在我太困了&lt;/p&gt;&lt;p&gt;18.&lt;/p&gt;&lt;p&gt;会有蚊子替我亲你，晚安&lt;/p&gt;&lt;p&gt;19.&lt;/p&gt;&lt;p&gt;希望你别是风&lt;/p&gt;&lt;p&gt;在我这里掀起了万般波澜&lt;/p&gt;&lt;p&gt;却又跟着云去了远方&lt;/p&gt;&lt;p&gt;20.&lt;/p&gt;&lt;p&gt;我抓不住这世间的美好&lt;/p&gt;&lt;p&gt;所以只能装作万事顺遂的模样&lt;/p&gt;&lt;p&gt;21.&lt;/p&gt;&lt;p&gt;我们每个人心里都有一团火&lt;/p&gt;&lt;p&gt;而路过的人&lt;/p&gt;&lt;p&gt;只看到了烟&lt;/p&gt;&lt;p&gt;你不能奢求他去懂你&lt;/p&gt;&lt;p&gt;因为他们只能看到我们的表面&lt;/p&gt;&lt;p&gt;22.&lt;/p&gt;&lt;p&gt;试问闲愁都几许，一川烟草，满城风絮，梅子黄时雨&lt;/p&gt;&lt;p&gt;23.&lt;/p&gt;&lt;p&gt;我，穷极一生都未曾因爱你而感到疲惫&lt;/p&gt;&lt;p&gt;24.&lt;/p&gt;&lt;p&gt;其实你所有的习以为常，很多都是别人的望尘莫及&lt;/p&gt;&lt;p&gt;25.&lt;/p&gt;&lt;p&gt;很多时候不是两个人的感情出问题了，而是我们喜欢和自己的情绪闹别扭罢了&lt;/p&gt;&lt;hr&gt;&lt;p&gt;好啦，暂时先更到这里&lt;/p&gt;&lt;p&gt;这里面的句子有些是我自己写的，有些是和朋友聊天时突然的灵感，有些是在各个平台上看到觉得喜欢收藏的。&lt;/p&gt;&lt;p&gt;因为看到的时候也只是一瞬，没有记下作者～（之前也只是想自留啊，看到这个问题就来分享一波）所以如果有侵权什么的～联系我删除鸭～&lt;/p&gt;&lt;p&gt;后面有收集到喜欢的小句子会继续和大家分享的～（如果你们喜欢的话）&lt;/p&gt;&lt;p&gt;打字不易，点个赞啦～&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-4aeeee74172cc62411279039a86fa74b_b.jpg&quot; data-rawwidth=&quot;700&quot; data-rawheight=&quot;700&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-dca4c3a456dd0e7288d0b8a7e93f3f4b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;700&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-4aeeee74172cc62411279039a86fa74b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/50/v2-49ae79fd58bf82f4601474577c1ab2fa_200x112.jpg" data-rawwidth="700" data-rawheight="700" data-size="normal" data-watermark="watermark" data-original-src="v2-49ae79fd58bf82f4601474577c1ab2fa" data-watermark-src="v2-4aeeee74172cc62411279039a86fa74b" data-private-watermark-src="v2-dca4c3a456dd0e7288d0b8a7e93f3f4b" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/50/v2-49ae79fd58bf82f4601474577c1ab2fa_r.jpg">
+1.夏天有梅子味的晚霞，三两颗啤酒味的星，以及一勺浓郁的风，冲开少女草莓味的心事。2.我在贩卖日落，你像神明一样慷慨的将光洒向我，从此人间被点亮。3.我好像一直都在放弃你又好像一直都在等你4.世间万物皆苦，你明目张胆的偏爱就是救赎（这句真的好喜欢…
+
+<a href="/question/295124584/answer/726953021" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2019-06-25" target="_blank" href="/question/295124584/answer/726953021">编辑于 00:30</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27860184"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>21 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="zm-side-section">
+<div class="DownloadApp">
+<button class="DownloadApp-button">
+<span class="sprite-global-icon-qrcode"></span>
+下载知乎 App
+</button>
+</div>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="explore_up" data-params='{}'></div>
+
+<div class="zm-side-section explore-side-section explore-side-section-roundtable">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="/roundtable" class="zg-link-gray zg-right" data-za-c="view_roundtable" data-za-a="visit_roundtable_home" data-za-l="explore_sidebar_trending_roundtable_more">更多圆桌 &raquo;</a>
+<h3>热门圆桌</h3>
+</div>
+<ul class="list hot-roundtables">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/weilai"><img src="https://pic2.zhimg.com/v2-bc11c5244891ec00d9897aab39685948_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<span class="status zg-right zg-gray-normal">
+还有 5 小时结束
+</span>
+
+<a href="/roundtable/weilai" target="_blank" data-hovercard="r$t$weilai">当科幻变为现实</a>
+<div class="meta">
+<span>212 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>8 个问题</span>
+</div>
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/hulianwangren"><img src="https://pic2.zhimg.com/v2-8d1656b0da94ff36f246e137887e9925_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<span class="status zg-right zg-gray-normal">
+还有 4 天结束
+</span>
+
+<a href="/roundtable/hulianwangren" target="_blank" data-hovercard="r$t$hulianwangren">互联网人进阶之路</a>
+<div class="meta">
+<span>2806 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>18 个问题</span>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+
+<a href="/topics" class="zg-link-gray zg-right">更多话题 &raquo;</a>
+
+<h3>热门话题</h3>
+</div>
+<ul class="list hot-topics">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19588303" data-hovercard="t$b$19588303"><img src="https://pic4.zhimg.com/ebec2d3ac_m.jpg" alt="节气" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19588303" target="_blank" data-hovercard="t$b$19588303">节气</a>
+<div class="meta">
+<span>5770 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19865724" data-hovercard="t$b$19865724"><img src="https://pic3.zhimg.com/v2-296f1ee32553f13bb898880477871660_m.jpg" alt="神器" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19865724" target="_blank" data-hovercard="t$b$19865724">神器</a>
+<div class="meta">
+<span>29151 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+<a class="question_link" href="/question/52857778" target="_blank" data-id="13361650" data-za-element-name="Title">
+有哪些堪称「神器」，却鲜为人知的APP？
+</a>
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19559450" data-hovercard="t$b$19559450"><img src="https://pic2.zhimg.com/d3dd87a0feae0a3db82973157eee89c0_m.jpg" alt="机器学习" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19559450" target="_blank" data-hovercard="t$b$19559450">机器学习</a>
+<div class="meta">
+<span>1041565 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+<h3>热门收藏</h3>
+</div>
+<ul class="list hot-favlists">
+<li>
+<div class="content">
+<a href="/collection/137714956" target="_blank">不要看，忘设私密。</a>
+<div class="meta">
+<span>829 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>387 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/26458188" target="_blank">捞出来的精华知识和经验</a>
+<div class="meta">
+<span>18736 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>1257 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/36809906" target="_blank">知乎最系列</a>
+<div class="meta">
+<span>11280 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>521 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/21827129" target="_blank">都是好东西</a>
+<div class="meta">
+<span>5219 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>26850 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/26346436" target="_blank">人在关系中（&quot;职场&quot;部分已新建收藏夹）</a>
+<div class="meta">
+<span>8744 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>378 条内容</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/term/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2019 知乎</span>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1564034744000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.b178f75b.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.c89d4c53.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.09c9a6cd.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.236178a6.js"></script>
+<meta name="entry" content="ZH.entryExplore" data-module-id="page-main">
+
+<script type="text/zscript" znonce="a53ac0e5c7e645699e64d5f0e65ecf80"></script>
+
+<input type="hidden" name="_xsrf" value="2c3d7a82b16814566252ec2a32484b6f"/>
+</body>
+</html>
